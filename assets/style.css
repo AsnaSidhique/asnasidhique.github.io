@@ -1,0 +1,42 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.folder {
+  display: block;
+  width: 260px;
+  padding: 15px;
+  background: white;
+  color: #1d4ed8;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.folder:hover {
+  transform: scale(1.05);
+  background: #e0ecff;
+}
+
+.back-link {
+  display: block;
+  margin: 20px;
+  color: #1d4ed8;
+  font-weight: bold;
+}
+
+img.rounded-full {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
